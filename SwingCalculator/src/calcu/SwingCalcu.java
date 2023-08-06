@@ -11,87 +11,6 @@ public class SwingCalcu extends javax.swing.JFrame {
         jRadioButton1.setEnabled(false); // ON button disable        
     }
     
-    public void arithmetic_operation()
-    {
-        switch(calculation)
-        {
-            case 1: //Addition 
-                ans= num + Double.parseDouble(jTextField2.getText()); 
-                jTextField2.setText(Double.toString(ans));
-                break;
-                
-            case 2: //Subtraction  
-                ans= num - Double.parseDouble(jTextField2.getText()); 
-                jTextField2.setText(Double.toString(ans));
-                break;    
-                
-            case 3: //Multiplication   
-                ans= num * Double.parseDouble(jTextField2.getText()); 
-                jTextField2.setText(Double.toString(ans));
-                break; 
-                
-            case 4: //Division  
-                ans= num / Double.parseDouble(jTextField2.getText()); 
-                jTextField2.setText(Double.toString(ans));
-                break;    
-        }
-    }
-    
-    public void enable()
-    {
-        jTextField2.setEditable(true);
-        
-        jRadioButton1.setEnabled(false); //ON button disable
-        jRadioButton2.setEnabled(true); //OFF button enable 
-        
-        jButton2.setEnabled(true); 
-        jButton5.setEnabled(true); 
-        jButton6.setEnabled(true); 
-        jButton7.setEnabled(true); 
-        jButton8.setEnabled(true); 
-        jButton9.setEnabled(true); 
-        jButton10.setEnabled(true); 
-        jButton11.setEnabled(true); 
-        jButton12.setEnabled(true); 
-        jButton13.setEnabled(true); 
-        jButton14.setEnabled(true); 
-        jButton15.setEnabled(true); 
-        jButton16.setEnabled(true); 
-        jButton17.setEnabled(true); 
-        jButton19.setEnabled(true); 
-        jButton20.setEnabled(true);
-        jButton21.setEnabled(true);
-        jButton22.setEnabled(true);
-        jTextField2.setEnabled(true);
-    }
-    
-    public void disable()
-    {
-        jTextField2.setEnabled(false);
-        
-        jRadioButton1.setEnabled(true); //ON button enable
-        jRadioButton2.setEnabled(false); //OFF button disbale  
-        
-        jButton2.setEnabled(false); 
-        jButton5.setEnabled(false); 
-        jButton6.setEnabled(false); 
-        jButton7.setEnabled(false); 
-        jButton8.setEnabled(false); 
-        jButton9.setEnabled(false); 
-        jButton10.setEnabled(false); 
-        jButton11.setEnabled(false); 
-        jButton12.setEnabled(false); 
-        jButton13.setEnabled(false); 
-        jButton14.setEnabled(false); 
-        jButton15.setEnabled(false); 
-        jButton16.setEnabled(false); 
-        jButton17.setEnabled(false);  
-        jButton19.setEnabled(false); 
-        jButton20.setEnabled(false);
-        jButton21.setEnabled(false);
-        jButton22.setEnabled(false);
-    }
-
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
@@ -245,7 +164,7 @@ public class SwingCalcu extends javax.swing.JFrame {
             }
         });
 
-        jButton21.setBackground(new java.awt.Color(255, 102, 102));
+        jButton21.setBackground(new java.awt.Color(255, 90, 175)); 
         jButton21.setFont(new java.awt.Font("Tahoma", 1, 20)); // NOI18N
         jButton21.setText("C");
         jButton21.setBorder(null);
@@ -264,8 +183,8 @@ public class SwingCalcu extends javax.swing.JFrame {
             }
         });
 
-        jButton22.setBackground(new java.awt.Color(255, 153, 102));
-        jButton22.setFont(new java.awt.Font("Tahoma", 1, 16)); // NOI18N
+        jButton22.setBackground(new java.awt.Color(255, 153, 192));
+        jButton22.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         jButton22.setText("<--");
         jButton22.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
