@@ -36,7 +36,37 @@ public class SwingCalcu extends javax.swing.JFrame {
                 break;    
         }
     }
+
+    public void enable()
+    {
+        jTextField2.setEditable(true);
+        
+        jRadioButton1.setEnabled(false); //ON button disable
+        jRadioButton2.setEnabled(true); //OFF button enable 
+        
+        jButton2.setEnabled(true); 
+        jButton5.setEnabled(true); 
+        jButton6.setEnabled(true); 
+        jButton7.setEnabled(true); 
+        jButton8.setEnabled(true); 
+        jButton9.setEnabled(true); 
+        jButton10.setEnabled(true); 
+        jButton11.setEnabled(true); 
+        jButton12.setEnabled(true); 
+        jButton13.setEnabled(true); 
+        jButton14.setEnabled(true); 
+        jButton15.setEnabled(true); 
+        jButton16.setEnabled(true); 
+        jButton17.setEnabled(true); 
+        jButton19.setEnabled(true); 
+        jButton20.setEnabled(true);
+        jButton21.setEnabled(true);
+        jButton22.setEnabled(true);
+        jTextField2.setEnabled(true);
+    }
     
+    
+
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
