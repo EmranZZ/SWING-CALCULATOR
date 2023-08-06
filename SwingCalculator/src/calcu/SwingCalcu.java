@@ -65,6 +65,33 @@ public class SwingCalcu extends javax.swing.JFrame {
         jTextField2.setEnabled(true);
     }
     
+
+    public void disable()
+    {
+        jTextField2.setEnabled(false);
+        
+        jRadioButton1.setEnabled(true); //ON button enable
+        jRadioButton2.setEnabled(false); //OFF button disbale  
+        
+        jButton2.setEnabled(false); 
+        jButton5.setEnabled(false); 
+        jButton6.setEnabled(false); 
+        jButton7.setEnabled(false); 
+        jButton8.setEnabled(false); 
+        jButton9.setEnabled(false); 
+        jButton10.setEnabled(false); 
+        jButton11.setEnabled(false); 
+        jButton12.setEnabled(false); 
+        jButton13.setEnabled(false); 
+        jButton14.setEnabled(false); 
+        jButton15.setEnabled(false); 
+        jButton16.setEnabled(false); 
+        jButton17.setEnabled(false);  
+        jButton19.setEnabled(false); 
+        jButton20.setEnabled(false);
+        jButton21.setEnabled(false);
+        jButton22.setEnabled(false);
+    }
     
 
     @SuppressWarnings("unchecked")
