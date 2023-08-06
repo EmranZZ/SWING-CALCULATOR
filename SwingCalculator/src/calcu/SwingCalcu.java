@@ -11,6 +11,32 @@ public class SwingCalcu extends javax.swing.JFrame {
         jRadioButton1.setEnabled(false); // ON button disable        
     }
     
+    public void arithmetic_operation()
+    {
+        switch(calculation)
+        {
+            case 1: //Addition 
+                ans= num + Double.parseDouble(jTextField2.getText()); 
+                jTextField2.setText(Double.toString(ans));
+                break;
+                
+            case 2: //Subtraction  
+                ans= num - Double.parseDouble(jTextField2.getText()); 
+                jTextField2.setText(Double.toString(ans));
+                break;    
+                
+            case 3: //Multiplication   
+                ans= num * Double.parseDouble(jTextField2.getText()); 
+                jTextField2.setText(Double.toString(ans));
+                break; 
+                
+            case 4: //Division  
+                ans= num / Double.parseDouble(jTextField2.getText()); 
+                jTextField2.setText(Double.toString(ans));
+                break;    
+        }
+    }
+    
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
